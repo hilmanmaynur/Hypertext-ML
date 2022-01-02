@@ -1,0 +1,53 @@
+*{
+    padding: 0px; margin: 0px;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+h1{
+    float: left;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.content-header{
+    background: #3a593a;
+    color: white;
+    padding: 10px 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.content-header form{
+    float: right;
+}
+.content-header label{
+    font-size: 12px;
+    scroll-padding-bottom : 20px;
+    color: white;
+    border-bottom: 1px solid black;
+}
+.content-header label,
+.content-header input{
+    display: block;
+}
+.content-header input[type="chekbox"]{
+    display: inline-block;
+}
+.group-form{
+    float: left;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.content-header input[type="submit"]{
+    background-color: #592a;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 10px;
+}
